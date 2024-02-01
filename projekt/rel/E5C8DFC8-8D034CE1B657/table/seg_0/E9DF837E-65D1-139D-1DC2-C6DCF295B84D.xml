@@ -1,0 +1,89 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E9DF837E-65D1-139D-1DC2-C6DCF295B84D" name="TERETANE">
+<createdBy>38599</createdBy>
+<createdTime>2023-03-13 10:38:34 UTC</createdTime>
+<generatorID>C17C38FA-BE1F-60BA-CAC4-6CF6D4CCC7DF</generatorID>
+<ownerDesignName>projekt</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_Teretana" id="BCF70699-AED6-628C-B3C5-A0A55988E4DC">
+<createdBy>38599</createdBy>
+<createdTime>2023-03-13 10:38:34 UTC</createdTime>
+<generatorID>2EAC93B1-329E-6C2B-6190-C346E35662A0</generatorID>
+<ownerDesignName>projekt</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Ime" id="DCCB5FAA-6043-9538-A2AB-ED428A75DFE3">
+<createdBy>38599</createdBy>
+<createdTime>2023-03-13 10:38:34 UTC</createdTime>
+<generatorID>C782356D-82F1-B5DC-B6E8-279BBCD4971D</generatorID>
+<ownerDesignName>projekt</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LogDes-4BABEC65-108B-2A3C-F7C4-84AC47D292B0@LOGDT10040</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Lokacija" id="DAC15B32-E41E-D4BB-944F-B335621C2209">
+<createdBy>38599</createdBy>
+<createdTime>2023-03-13 10:38:34 UTC</createdTime>
+<generatorID>F11C9B79-B8C0-8825-33A1-E83A3AB9E840</generatorID>
+<ownerDesignName>projekt</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>150</dataTypeSize>
+<ownDataTypeParameters>150,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="GRADOVI_Ime" id="ABFE505D-97B0-5BC9-8387-F36CE0163C6A">
+<createdBy>38599</createdBy>
+<createdTime>2023-03-13 10:38:34 UTC</createdTime>
+<generatorID>C9445F98-2169-3E44-8933-AF4C54AFC6C8</generatorID>
+<ownerDesignName>projekt</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="250EBF46-DE2A-9AAC-C2A5-148FF1EF565D" referredColumn="D2A86E7A-CC63-05F1-E57B-C1C04A8C09D3"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="0827BAAB-A4B6-8722-C384-A4F68D56FDA2" name="TERETANE_PK">
+<createdBy>38599</createdBy>
+<createdTime>2023-03-13 10:38:34 UTC</createdTime>
+<generatorID>57347524-F9DB-4984-3405-F07F82E7A3C2</generatorID>
+<ownerDesignName>projekt</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BCF70699-AED6-628C-B3C5-A0A55988E4DC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="EC698CA9-0C48-198F-1B32-4598044DE3EB" name="TERETANE_GRADOVI_FK">
+<createdBy>38599</createdBy>
+<createdTime>2023-03-13 10:38:34 UTC</createdTime>
+<generatorID>6D9E134F-2BF3-133B-9B7C-243154A22B2E</generatorID>
+<ownerDesignName>projekt</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="ABFE505D-97B0-5BC9-8387-F36CE0163C6A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,158 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="8941A152-79E8-CCC6-1B1A-BE76F060F5F9" name="RASPOREDI">
+<createdBy>38599</createdBy>
+<createdTime>2023-03-18 21:49:21 UTC</createdTime>
+<generatorID>8B8B7A5A-6287-BEDB-FED6-79E44CA8FB85</generatorID>
+<ownerDesignName>projekt</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_Raspored" id="7DCAF05A-FAEB-71E0-55AF-369E022682D2">
+<createdBy>38599</createdBy>
+<createdTime>2023-03-18 21:49:21 UTC</createdTime>
+<generatorID>0A480052-B7B3-FA86-552A-05FE1880F88A</generatorID>
+<ownerDesignName>projekt</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<autoIncrementSequenceName>RASPORED_SEQ</autoIncrementSequenceName>
+<autoIncrementTriggerName>RASPORED_TRG</autoIncrementTriggerName>
+</Column>
+<Column name="Dan" id="707887EA-FF99-3F57-98DC-DBA3DC4AC1F6">
+<createdBy>38599</createdBy>
+<createdTime>2023-03-18 21:49:21 UTC</createdTime>
+<generatorID>2D142081-E52F-27E0-20A5-DF6E161B23E2</generatorID>
+<ownerDesignName>projekt</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Vrijeme_od" id="D02C43BA-04E8-6EAB-8495-E5E7EE4FBFEA">
+<createdBy>38599</createdBy>
+<createdTime>2023-03-18 21:49:21 UTC</createdTime>
+<generatorID>80293B12-FC98-5939-B597-474401E27EEE</generatorID>
+<ownerDesignName>projekt</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Vrijeme_do" id="0020AEFF-BB66-099E-1016-90B3564D50B8">
+<createdBy>38599</createdBy>
+<createdTime>2023-03-18 21:49:21 UTC</createdTime>
+<generatorID>1FE66AAD-3599-4C8E-35E8-0BB186946226</generatorID>
+<ownerDesignName>projekt</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ZAP_ID_Zap" id="4940F706-1F20-BBFC-68F1-4AFBAFBC686E">
+<createdBy>38599</createdBy>
+<createdTime>2023-03-18 21:49:21 UTC</createdTime>
+<generatorID>5EC4F95F-B79D-93A0-3FFA-4795A4FB5EC7</generatorID>
+<ownerDesignName>projekt</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2638A01C-79E0-23A8-D580-78707592D311" referredColumn="2678CD70-9A18-F40E-A727-C7E9A0A60E36"/>
+</associations>
+</Column>
+<Column name="VRSTE_USLUGE_ID_Usluga" id="2C3D040B-67AE-1CAA-8319-1872CA68935A">
+<createdBy>38599</createdBy>
+<createdTime>2023-03-18 21:49:21 UTC</createdTime>
+<generatorID>E5C2C29C-6E51-ACA3-8BE3-56E03712BAA2</generatorID>
+<ownerDesignName>projekt</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7327709D-54B9-0FAB-0B04-4B87E1431FBC" referredColumn="0D6183AD-8CE9-04D5-1EAC-5CB9F75D636D"/>
+</associations>
+</Column>
+<Column name="CLANOVI_ID_Clan" id="24E9C037-7F7C-168F-D79B-7C83C7C8CF0F">
+<createdBy>38599</createdBy>
+<createdTime>2023-03-18 21:49:21 UTC</createdTime>
+<generatorID>C4AC1BA1-85FB-3E3B-40ED-FDDF22BDB183</generatorID>
+<ownerDesignName>projekt</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="525E2DE3-BE60-96EE-9A3C-433C7B58D177" referredColumn="2693D8E6-134F-423B-55C0-13D7D4743355"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="E34F26D7-DB94-5978-94C2-49AE73B23628" name="RASPOREDI_PK">
+<createdBy>38599</createdBy>
+<createdTime>2023-03-18 21:49:21 UTC</createdTime>
+<generatorID>CD579833-1048-F53A-A725-B9DFBF9E2DAE</generatorID>
+<ownerDesignName>projekt</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7DCAF05A-FAEB-71E0-55AF-369E022682D2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C81E1AAF-99AC-3075-B621-975C567C73D8" name="RASPOREDI_ZAP_FK">
+<createdBy>38599</createdBy>
+<createdTime>2023-03-18 21:49:21 UTC</createdTime>
+<generatorID>473939BB-C290-A7FA-09D8-BF95C0CFA0AF</generatorID>
+<ownerDesignName>projekt</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4940F706-1F20-BBFC-68F1-4AFBAFBC686E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="700929A6-752C-6C2D-9ECB-36ED8D45C6DD" name="RASPOREDI_VRSTE_USLUGE_FK">
+<createdBy>38599</createdBy>
+<createdTime>2023-03-18 21:49:21 UTC</createdTime>
+<generatorID>027857A0-60F5-479D-BBFA-2326E68BEA2E</generatorID>
+<ownerDesignName>projekt</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2C3D040B-67AE-1CAA-8319-1872CA68935A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7BC3D862-DC42-8DCE-BBF8-C968C9B50E2B" name="RASPOREDI_CLANOVI_FK">
+<createdBy>38599</createdBy>
+<createdTime>2023-03-18 21:49:21 UTC</createdTime>
+<generatorID>255F627C-3602-79EE-D9EA-5D6C8F15759E</generatorID>
+<ownerDesignName>projekt</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="24E9C037-7F7C-168F-D79B-7C83C7C8CF0F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

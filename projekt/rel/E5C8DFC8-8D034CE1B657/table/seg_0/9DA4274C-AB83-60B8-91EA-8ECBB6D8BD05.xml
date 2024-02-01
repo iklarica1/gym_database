@@ -1,0 +1,156 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="9DA4274C-AB83-60B8-91EA-8ECBB6D8BD05" name="RACUNI">
+<createdBy>38599</createdBy>
+<createdTime>2023-03-13 10:38:34 UTC</createdTime>
+<generatorID>0D5B1182-89FF-0AB2-97B8-DDBF53D0D1C9</generatorID>
+<ownerDesignName>projekt</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_Racun" id="B2ED047A-26C6-28E6-7D3A-2817D8DD6B80">
+<createdBy>38599</createdBy>
+<createdTime>2023-03-13 10:38:34 UTC</createdTime>
+<generatorID>23426A79-258A-A7C9-2855-E62CFE9EEAB8</generatorID>
+<ownerDesignName>projekt</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Ukupna_cijena" id="CC626D13-AD95-E725-52F6-CB5FC25DE10B">
+<createdBy>38599</createdBy>
+<createdTime>2023-03-13 10:38:34 UTC</createdTime>
+<generatorID>971824FC-1197-EDE0-C238-54976625E286</generatorID>
+<ownerDesignName>projekt</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Popust" id="FBF872E7-C2D3-FB12-7D70-B7F37E792C93">
+<createdBy>38599</createdBy>
+<createdTime>2023-03-13 10:38:34 UTC</createdTime>
+<generatorID>AF06988C-2035-609B-62C0-2630F1FF8C61</generatorID>
+<ownerDesignName>projekt</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Datum_izdavanja" id="4CBAD254-51C8-DEFF-B8BC-E8C7DDFB1DDB">
+<createdBy>38599</createdBy>
+<createdTime>2023-03-13 10:38:34 UTC</createdTime>
+<generatorID>440D0617-09B6-141D-4636-E40E071C24FF</generatorID>
+<ownerDesignName>projekt</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ZAPOSLENICI_ID_Zaposlenik" id="BE56D595-699F-4160-083A-8D4D8D0F0979">
+<createdBy>38599</createdBy>
+<createdTime>2023-03-13 10:38:34 UTC</createdTime>
+<generatorID>58E0D882-0743-347B-7394-F1FF59DD53D3</generatorID>
+<ownerDesignName>projekt</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="39B89982-D271-CD1C-EF9B-7460BEFF8D26" referredColumn="996994B4-25BF-9C96-9333-2DB66B9E263D"/>
+</associations>
+</Column>
+<Column name="TERMINI_TERMINI_ID" id="54EE7DDF-2E25-7672-4414-3B301E677E11">
+<createdBy>38599</createdBy>
+<createdTime>2023-03-13 10:38:34 UTC</createdTime>
+<ownerDesignName>projekt</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ID_Usluga" id="0DAD8F82-AEAE-8189-88F6-BF30EF589EE0">
+<createdBy>38599</createdBy>
+<createdTime>2023-03-13 10:44:38 UTC</createdTime>
+<generatorID>B83CBDA4-BC99-48B7-59FF-2DDCAA2358AC</generatorID>
+<ownerDesignName>projekt</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="077B2B4C-0B35-9434-992C-F7898F4B5B99" referredColumn="B1D2B7ED-4B5A-8068-7240-5182FCB56935"/>
+</associations>
+</Column>
+<Column name="ID_Clan" id="B8F36EFF-2465-FD29-5ABF-60225E2C727F">
+<createdBy>38599</createdBy>
+<createdTime>2023-03-13 10:44:38 UTC</createdTime>
+<generatorID>0BADA25C-7BFE-0B8E-70EF-C5CA316D7C4A</generatorID>
+<ownerDesignName>projekt</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="077B2B4C-0B35-9434-992C-F7898F4B5B99" referredColumn="C682A0E3-F0AF-D590-D86B-E6DD57CAF423"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="E332B10D-E9A8-21CB-AC8D-4F0175D60B49" name="RACUNI_PK">
+<createdBy>38599</createdBy>
+<createdTime>2023-03-13 10:38:34 UTC</createdTime>
+<generatorID>5DE22E67-01C9-81E2-263D-D54520855352</generatorID>
+<ownerDesignName>projekt</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B2ED047A-26C6-28E6-7D3A-2817D8DD6B80"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="BAC40508-9999-3ABA-C37C-47F302B8CA6B" name="RACUNI_ZAPOSLENICI_FK">
+<createdBy>38599</createdBy>
+<createdTime>2023-03-13 10:38:34 UTC</createdTime>
+<generatorID>F6FC87CB-AEC6-33ED-5116-8A501E1B4570</generatorID>
+<ownerDesignName>projekt</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BE56D595-699F-4160-083A-8D4D8D0F0979"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9EF9B161-8667-B9BC-F103-CE5B5203E676" name="RACUNI_TERMINI_FK">
+<createdBy>38599</createdBy>
+<createdTime>2023-03-13 10:38:34 UTC</createdTime>
+<generatorID>AA9D15B0-539F-CEB4-2ED0-57DDC15A864D</generatorID>
+<ownerDesignName>projekt</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0DAD8F82-AEAE-8189-88F6-BF30EF589EE0"/>
+<colUsage columnID="B8F36EFF-2465-FD29-5ABF-60225E2C727F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

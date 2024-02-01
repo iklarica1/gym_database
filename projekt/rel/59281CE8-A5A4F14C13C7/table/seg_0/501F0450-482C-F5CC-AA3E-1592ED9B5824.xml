@@ -1,0 +1,93 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="501F0450-482C-F5CC-AA3E-1592ED9B5824" name="TERETANE">
+<createdBy>38599</createdBy>
+<createdTime>2023-03-18 21:49:21 UTC</createdTime>
+<generatorID>C17C38FA-BE1F-60BA-CAC4-6CF6D4CCC7DF</generatorID>
+<ownerDesignName>projekt</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_T" id="F392B9AC-504A-B507-A025-E6F454B2930D">
+<createdBy>38599</createdBy>
+<createdTime>2023-03-18 21:49:21 UTC</createdTime>
+<generatorID>2EAC93B1-329E-6C2B-6190-C346E35662A0</generatorID>
+<ownerDesignName>projekt</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<autoIncrementSequenceName>TERETANE_SEQ</autoIncrementSequenceName>
+<autoIncrementTriggerName>TERETANE_TRG</autoIncrementTriggerName>
+</Column>
+<Column name="Ime" id="3D25B892-EC53-0DB4-207B-4B0BA3948C72">
+<createdBy>38599</createdBy>
+<createdTime>2023-03-18 21:49:21 UTC</createdTime>
+<generatorID>C782356D-82F1-B5DC-B6E8-279BBCD4971D</generatorID>
+<ownerDesignName>projekt</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Lokacija" id="0AD137AD-29CD-8B05-7AFD-71ABEEB01981">
+<createdBy>38599</createdBy>
+<createdTime>2023-03-18 21:49:21 UTC</createdTime>
+<generatorID>F11C9B79-B8C0-8825-33A1-E83A3AB9E840</generatorID>
+<ownerDesignName>projekt</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>150</dataTypeSize>
+<ownDataTypeParameters>150,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="GRADOVI_Ime" id="1948AD77-23FC-9B13-9E55-E3179B7AB7E3">
+<createdBy>38599</createdBy>
+<createdTime>2023-03-18 21:49:21 UTC</createdTime>
+<generatorID>C9445F98-2169-3E44-8933-AF4C54AFC6C8</generatorID>
+<ownerDesignName>projekt</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E0143DF8-2329-9FDE-03F2-5611614B6DFA" referredColumn="48D540F6-6715-17EA-EB05-D3F18682478E"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="6C34ACBD-EB4D-BB31-E76E-789AD0ADD2B5" name="TERETANE_PK">
+<createdBy>38599</createdBy>
+<createdTime>2023-03-18 21:49:21 UTC</createdTime>
+<generatorID>57347524-F9DB-4984-3405-F07F82E7A3C2</generatorID>
+<ownerDesignName>projekt</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F392B9AC-504A-B507-A025-E6F454B2930D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="86F17654-A1DB-2132-9ED8-5FA8E52AC552" name="TERETANE_GRADOVI_FK">
+<createdBy>38599</createdBy>
+<createdTime>2023-03-18 21:49:21 UTC</createdTime>
+<generatorID>6D9E134F-2BF3-133B-9B7C-243154A22B2E</generatorID>
+<ownerDesignName>projekt</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1948AD77-23FC-9B13-9E55-E3179B7AB7E3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

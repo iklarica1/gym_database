@@ -1,0 +1,84 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A89DE70D-10B2-DAC6-4A36-6D3DE85FF312" name="VRSTE_USLUGE">
+<createdBy>38599</createdBy>
+<createdTime>2023-03-13 10:38:34 UTC</createdTime>
+<generatorID>9DC47B05-45DD-4460-208B-7AEF0738F287</generatorID>
+<ownerDesignName>projekt</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_Usluga" id="055915FB-D53E-989C-4A18-34241CE10AEA">
+<createdBy>38599</createdBy>
+<createdTime>2023-03-13 10:38:34 UTC</createdTime>
+<generatorID>E4CADEE5-9D6C-1B52-12FE-A68488661D78</generatorID>
+<ownerDesignName>projekt</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Naziv" id="DDC4EB1D-0943-BC9C-78D4-EDB40DE025AE">
+<createdBy>38599</createdBy>
+<createdTime>2023-03-13 10:38:34 UTC</createdTime>
+<generatorID>84306E3A-DF4D-5CF4-318B-4BD7B0057EBC</generatorID>
+<ownerDesignName>projekt</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Cijena" id="C44A7BB7-7FAC-1832-6F0F-414448414956">
+<createdBy>38599</createdBy>
+<createdTime>2023-03-13 10:38:34 UTC</createdTime>
+<generatorID>58CFC618-8BC4-7B34-71D9-ADFBA7A4B4CD</generatorID>
+<ownerDesignName>projekt</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Pocetak_usluge" id="01742C4E-99BC-BF4A-0152-D3EEC89985D8">
+<createdBy>38599</createdBy>
+<createdTime>2023-03-13 10:38:34 UTC</createdTime>
+<generatorID>A577C455-07D1-5A7E-516A-9D14B4529361</generatorID>
+<ownerDesignName>projekt</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="CE6E2334-2664-C860-C0FF-4D644E74822A" name="VRSTE_USLUGE_PK">
+<createdBy>38599</createdBy>
+<createdTime>2023-03-13 10:38:34 UTC</createdTime>
+<generatorID>115B74B7-ED0E-5C67-4CA4-D77199BF458F</generatorID>
+<ownerDesignName>projekt</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="055915FB-D53E-989C-4A18-34241CE10AEA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2493F6AE-6F53-D822-9CFB-17450CFD56F1" name="VRSTE_USLUGE_Naziv_UN">
+<createdBy>38599</createdBy>
+<createdTime>2023-03-13 10:38:34 UTC</createdTime>
+<generatorID>E63BFA35-B9B8-1039-08B4-28AD0BE953EC</generatorID>
+<ownerDesignName>projekt</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DDC4EB1D-0943-BC9C-78D4-EDB40DE025AE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

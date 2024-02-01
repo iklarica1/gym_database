@@ -1,0 +1,189 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="FFF78AAE-2869-71DF-C087-EE4CEAC693FD" name="ZAPOSLENICI">
+<createdBy>38599</createdBy>
+<createdTime>2023-03-13 10:38:34 UTC</createdTime>
+<generatorID>4CF00F78-06FD-6721-858D-9746E133BD4A</generatorID>
+<ownerDesignName>projekt</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_Zaposlenik" id="996994B4-25BF-9C96-9333-2DB66B9E263D">
+<createdBy>38599</createdBy>
+<createdTime>2023-03-13 10:38:34 UTC</createdTime>
+<generatorID>112FB5E3-911E-EAA4-9E4B-144B6BD9F0C7</generatorID>
+<ownerDesignName>projekt</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Ime" id="DF9327C9-8AD5-5B37-3CBF-50E0C9793F9D">
+<createdBy>38599</createdBy>
+<createdTime>2023-03-13 10:38:34 UTC</createdTime>
+<generatorID>F6B2DE98-04F9-7B4C-FE60-F3F3B1A99695</generatorID>
+<ownerDesignName>projekt</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Prezime" id="72A02C74-84D3-6267-7916-489D629CD4F9">
+<createdBy>38599</createdBy>
+<createdTime>2023-03-13 10:38:34 UTC</createdTime>
+<generatorID>4020E027-5C24-95B7-42D0-2C5D15AF2A8E</generatorID>
+<ownerDesignName>projekt</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Kontakt_broj" id="D4CB1C9B-C523-5152-9B19-69B031FF9FEC">
+<createdBy>38599</createdBy>
+<createdTime>2023-03-13 10:38:34 UTC</createdTime>
+<generatorID>2A350EF5-7DB6-F230-AF78-AA0EFE2359AD</generatorID>
+<ownerDesignName>projekt</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Adresa" id="53AED4E7-E6A1-110D-B157-6072366A0487">
+<createdBy>38599</createdBy>
+<createdTime>2023-03-13 10:38:34 UTC</createdTime>
+<generatorID>311433B8-0FEB-0F22-7998-8CC308577447</generatorID>
+<ownerDesignName>projekt</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Username" id="BFF6F453-BF69-0DEE-0B97-17C8D12FE468">
+<createdBy>38599</createdBy>
+<createdTime>2023-03-13 10:38:34 UTC</createdTime>
+<generatorID>5ACD1889-E1C5-4CA9-6958-C4C823178347</generatorID>
+<ownerDesignName>projekt</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Lozinka" id="5B4661FB-CDE0-0079-D552-D83539D413FA">
+<createdBy>38599</createdBy>
+<createdTime>2023-03-13 10:38:34 UTC</createdTime>
+<generatorID>6F3B287A-6E06-C871-E9D4-B97A698A09C6</generatorID>
+<ownerDesignName>projekt</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="E-mail" id="D92E53E9-85AF-CE3F-1C73-F8872C351172">
+<createdBy>38599</createdBy>
+<createdTime>2023-03-13 10:38:34 UTC</createdTime>
+<generatorID>D94FF5B2-B1C6-F91C-A390-85E0A4BDAD19</generatorID>
+<ownerDesignName>projekt</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SPOLOVI_ID_Spol" id="46CF2937-856F-F18F-389E-74C8781FD17D">
+<createdBy>38599</createdBy>
+<createdTime>2023-03-13 10:38:34 UTC</createdTime>
+<generatorID>5AD2AE86-EE1B-0CDA-69C0-7B957F104A19</generatorID>
+<ownerDesignName>projekt</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>1</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9AE53094-23C0-1F7E-5901-9E0CF19276D0" referredColumn="B3ADBDCA-CDAC-8606-7FAF-4CF4507ACC5D"/>
+</associations>
+</Column>
+<Column name="TERETANE_ID_Teretana" id="D9B0D9F2-9C3F-BCA6-D93E-D4E790E3C6AF">
+<createdBy>38599</createdBy>
+<createdTime>2023-03-13 10:38:34 UTC</createdTime>
+<generatorID>BB556F49-0DED-0709-8C42-65287B6E53CA</generatorID>
+<ownerDesignName>projekt</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F8EA9F97-87FC-C7F3-56BD-84204BEC3579" referredColumn="BCF70699-AED6-628C-B3C5-A0A55988E4DC"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="3BC8E38B-0E36-0D66-5298-01A626682974" name="ZAPOSLENICI_PK">
+<createdBy>38599</createdBy>
+<createdTime>2023-03-13 10:38:34 UTC</createdTime>
+<generatorID>B5A131D6-53F3-C215-E923-93F1166F1A05</generatorID>
+<ownerDesignName>projekt</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="996994B4-25BF-9C96-9333-2DB66B9E263D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="DD10773E-7AEA-FD30-82DB-C1C60B1892CB" name="ZAPOSLENICI_Username_E-mail_Kontakt_broj_UN">
+<createdBy>38599</createdBy>
+<createdTime>2023-03-13 10:38:34 UTC</createdTime>
+<generatorID>BD5D8DDC-8500-908E-D78D-56A9F925AE70</generatorID>
+<ownerDesignName>projekt</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BFF6F453-BF69-0DEE-0B97-17C8D12FE468"/>
+<colUsage columnID="D92E53E9-85AF-CE3F-1C73-F8872C351172"/>
+<colUsage columnID="D4CB1C9B-C523-5152-9B19-69B031FF9FEC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E53B6CE4-0CD8-BA2F-5225-2D0617B44BDD" name="ZAPOSLENICI_SPOLOVI_FK">
+<createdBy>38599</createdBy>
+<createdTime>2023-03-13 10:38:34 UTC</createdTime>
+<generatorID>ED9760AF-F763-7EA7-CFEA-DE93A2C1D8EA</generatorID>
+<ownerDesignName>projekt</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="46CF2937-856F-F18F-389E-74C8781FD17D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="35571A2E-3825-CEF6-0F08-F78F2E8278AE" name="ZAPOSLENICI_TERETANE_FK">
+<createdBy>38599</createdBy>
+<createdTime>2023-03-13 10:38:34 UTC</createdTime>
+<generatorID>4DF21882-0D10-720F-F6CC-9610E4A4ADAE</generatorID>
+<ownerDesignName>projekt</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D9B0D9F2-9C3F-BCA6-D93E-D4E790E3C6AF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

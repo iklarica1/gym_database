@@ -1,0 +1,147 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="19609278-028F-7CFF-F56E-A615D29EA2FC" name="ZAPOSLENICI_CERTIFIKATI">
+<createdBy>38599</createdBy>
+<createdTime>2023-03-13 10:38:34 UTC</createdTime>
+<generatorID>F04A7B6E-2AD1-DEBC-CD4F-787B722502F3</generatorID>
+<ownerDesignName>projekt</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Godina_diplome" id="D9BB248D-D35E-0235-B390-408B3E0A9036">
+<createdBy>38599</createdBy>
+<createdTime>2023-03-13 10:38:34 UTC</createdTime>
+<generatorID>79638603-570E-0B2F-EF45-28C9F8BFFD3F</generatorID>
+<ownerDesignName>projekt</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,4,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CERTIFIKATI_ID_Certifikat" id="E8197B80-1797-904D-7506-D82104D50671">
+<createdBy>38599</createdBy>
+<createdTime>2023-03-13 10:38:34 UTC</createdTime>
+<generatorID>3E4744E1-3150-84D1-11FB-64FA9C62C724</generatorID>
+<ownerDesignName>projekt</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2CCCBA6C-6D54-4DBA-0505-C5A465C296E3" referredColumn="F0D939D7-C2C1-A16B-03DB-9DA247F4198F"/>
+</associations>
+</Column>
+<Column name="ZAPOSLENICI_ID_Zaposlenik" id="B745DB12-E1BD-34E2-0E77-7F16EDB39865">
+<createdBy>38599</createdBy>
+<createdTime>2023-03-13 10:38:34 UTC</createdTime>
+<generatorID>B39CE474-163A-EBA5-3BC1-16B7EC9984E9</generatorID>
+<ownerDesignName>projekt</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E8BB59CA-045C-127B-4A2E-F83AE9FB4C68" referredColumn="996994B4-25BF-9C96-9333-2DB66B9E263D"/>
+</associations>
+</Column>
+<Column name="ZAPOSLENICI_ID_Zaposlenik2" id="B2D572A5-4585-7945-C91B-FB503FDC0FD8">
+<createdBy>38599</createdBy>
+<createdTime>2023-03-13 10:44:38 UTC</createdTime>
+<generatorID>414F3630-A540-B5AB-9D42-B5342F27101A</generatorID>
+<ownerDesignName>projekt</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E8A35D8E-0F15-7FF2-B9A6-90F35ED602D9" referredColumn="996994B4-25BF-9C96-9333-2DB66B9E263D"/>
+</associations>
+</Column>
+<Column name="CERTIFIKATI_ID_Certifikat2" id="B3B3F7A8-DD55-FD94-C7BD-A805EB2AB92E">
+<createdBy>38599</createdBy>
+<createdTime>2023-03-13 10:44:38 UTC</createdTime>
+<generatorID>740671D3-3F9C-6584-06B7-315FC6DB02A7</generatorID>
+<ownerDesignName>projekt</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2BB70D44-6B2C-03FD-95AC-089B9650CB9B" referredColumn="F0D939D7-C2C1-A16B-03DB-9DA247F4198F"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="98EFEBE7-EC28-4359-B2BB-1A4D865A16F1" name="ZAPOSLENICI_CERTIFIKATI_PK">
+<createdBy>38599</createdBy>
+<createdTime>2023-03-13 10:38:34 UTC</createdTime>
+<generatorID>13758B02-369D-D98C-04CC-B8A71E0CF721</generatorID>
+<ownerDesignName>projekt</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B2D572A5-4585-7945-C91B-FB503FDC0FD8"/>
+<colUsage columnID="B3B3F7A8-DD55-FD94-C7BD-A805EB2AB92E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F6B6B9E2-E1A0-9424-6242-0B1925D45A82" name="ZAPOSLENICI_CERTIFIKATI_CERTIFIKATI_FK">
+<createdBy>38599</createdBy>
+<createdTime>2023-03-13 10:38:34 UTC</createdTime>
+<generatorID>11EB12FA-2CAD-F44D-1E89-5A774FE6CF7C</generatorID>
+<ownerDesignName>projekt</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E8197B80-1797-904D-7506-D82104D50671"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="14E29D71-E02C-E68C-45F2-464B5917CB41" name="ZAPOSLENICI_CERTIFIKATI_ZAPOSLENICI_FK">
+<createdBy>38599</createdBy>
+<createdTime>2023-03-13 10:38:34 UTC</createdTime>
+<generatorID>50394EA1-BE30-06DA-9270-79E51F6CFEFF</generatorID>
+<ownerDesignName>projekt</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B745DB12-E1BD-34E2-0E77-7F16EDB39865"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B3F17FFE-8B45-0A14-91DC-3EE59FC3556C" name="ZAPOSLENICI_CERTIFIKATI_ZAPOSLENICI_FKv2">
+<createdBy>38599</createdBy>
+<createdTime>2023-03-13 10:44:38 UTC</createdTime>
+<generatorID>DEB962A0-44D7-E8DC-FA6A-5D84520869B8</generatorID>
+<ownerDesignName>projekt</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B2D572A5-4585-7945-C91B-FB503FDC0FD8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D6557358-167E-BC6B-C5DA-9AF68E08006E" name="ZAPOSLENICI_CERTIFIKATI_CERTIFIKATI_FKv2">
+<createdBy>38599</createdBy>
+<createdTime>2023-03-13 10:44:38 UTC</createdTime>
+<generatorID>D62A0CF8-8FB7-55A0-DCAA-79AB2A28C8AC</generatorID>
+<ownerDesignName>projekt</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B3B3F7A8-DD55-FD94-C7BD-A805EB2AB92E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

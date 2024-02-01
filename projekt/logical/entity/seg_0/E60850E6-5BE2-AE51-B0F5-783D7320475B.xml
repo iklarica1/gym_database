@@ -1,0 +1,142 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="E60850E6-5BE2-AE51-B0F5-783D7320475B" name="CLAN">
+<createdBy>38599</createdBy>
+<createdTime>2023-03-13 09:47:42 UTC</createdTime>
+<ownerDesignName>projekt</ownerDesignName>
+<engineerTo>
+<item key="59281CE8-5CE3-B8F8-9C6C-A5A4F14C13C7" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<preferredAbbreviation>CLANOVI</preferredAbbreviation>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID_Clan" id="E4CD3CCD-870B-583D-F8A4-B1CE9D527261">
+<createdBy>38599</createdBy>
+<createdTime>2023-03-13 09:48:25 UTC</createdTime>
+<ownerDesignName>projekt</ownerDesignName>
+<engineerTo>
+<item key="59281CE8-5CE3-B8F8-9C6C-A5A4F14C13C7" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Ime" id="53BE5E32-B099-FD36-9B90-14F6808CD070">
+<createdBy>38599</createdBy>
+<createdTime>2023-03-13 09:48:47 UTC</createdTime>
+<ownerDesignName>projekt</ownerDesignName>
+<engineerTo>
+<item key="59281CE8-5CE3-B8F8-9C6C-A5A4F14C13C7" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Prezime" id="C35BCAE5-E5A6-A19E-DCD5-DA6D5B93D948">
+<createdBy>38599</createdBy>
+<createdTime>2023-03-13 09:48:59 UTC</createdTime>
+<ownerDesignName>projekt</ownerDesignName>
+<engineerTo>
+<item key="59281CE8-5CE3-B8F8-9C6C-A5A4F14C13C7" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Kontakt_broj" id="8C8DD8ED-6F06-874D-D70D-08E5D9DDAD2F">
+<createdBy>38599</createdBy>
+<createdTime>2023-03-13 09:49:14 UTC</createdTime>
+<ownerDesignName>projekt</ownerDesignName>
+<engineerTo>
+<item key="59281CE8-5CE3-B8F8-9C6C-A5A4F14C13C7" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="E-mail" id="1FE345AF-802C-1D54-F31A-0881010ED9FF">
+<createdBy>38599</createdBy>
+<createdTime>2023-03-13 09:49:28 UTC</createdTime>
+<ownerDesignName>projekt</ownerDesignName>
+<engineerTo>
+<item key="59281CE8-5CE3-B8F8-9C6C-A5A4F14C13C7" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Godina_rodenja" id="6378AFF2-0820-AB2F-2734-84B88767ED76">
+<createdBy>38599</createdBy>
+<createdTime>2023-03-13 09:50:17 UTC</createdTime>
+<ownerDesignName>projekt</ownerDesignName>
+<engineerTo>
+<item key="59281CE8-5CE3-B8F8-9C6C-A5A4F14C13C7" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,4,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_Spol" id="D95CCEFB-07DD-C448-C403-1887EEECAD23">
+<createdBy>38599</createdBy>
+<createdTime>2023-03-13 10:27:54 UTC</createdTime>
+<generatorID>FA3A2EC6-C38D-9552-E9BF-ECDB2C99DEB9</generatorID>
+<ownerDesignName>projekt</ownerDesignName>
+<engineerTo>
+<item key="59281CE8-5CE3-B8F8-9C6C-A5A4F14C13C7" value="true"/>
+</engineerTo>
+<referedAttribute>E2487A1B-78DC-7433-FD1C-254FD2AA1EBE</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>1</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="1330AD94-F593-5EE1-3713-B57B748A27D5" name="CLAN PK">
+<createdBy>38599</createdBy>
+<createdTime>2023-03-13 09:48:42 UTC</createdTime>
+<ownerDesignName>projekt</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="59281CE8-5CE3-B8F8-9C6C-A5A4F14C13C7" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>E4CD3CCD-870B-583D-F8A4-B1CE9D527261</attributeRef>
+</usedAttributes>
+</identifier>
+<identifier id="103BFE3E-BAF5-0073-AD04-5B860223FE62" name="Key_4">
+<createdBy>38599</createdBy>
+<createdTime>2023-03-13 10:23:39 UTC</createdTime>
+<ownerDesignName>projekt</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="59281CE8-5CE3-B8F8-9C6C-A5A4F14C13C7" value="false"/>
+</engineerTo>
+<newElementsIDs>8C8DD8ED-6F06-874D-D70D-08E5D9DDAD2F,1FE345AF-802C-1D54-F31A-0881010ED9FF</newElementsIDs>
+<usedAttributes>
+<attributeRef>8C8DD8ED-6F06-874D-D70D-08E5D9DDAD2F</attributeRef>
+<attributeRef>1FE345AF-802C-1D54-F31A-0881010ED9FF</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,15 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="077B2B4C-0B35-9434-992C-F7898F4B5B99" containerWithKeyObject="9DA4274C-AB83-60B8-91EA-8ECBB6D8BD05" localFKIndex="9EF9B161-8667-B9BC-F103-CE5B5203E676" name="RACUNI_TERMINI_FK">
+<createdBy>38599</createdBy>
+<createdTime>2023-03-13 10:38:34 UTC</createdTime>
+<generatorID>AA9D15B0-539F-CEB4-2ED0-57DDC15A864D</generatorID>
+<ownerDesignName>projekt</ownerDesignName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>95C26093-0200-9449-DBF0-EB9FAF467CDC</referredTableID>
+<keyObject>B3841908-6D9C-B11B-5E61-7B8CAB420792</keyObject>
+<referredKeyID>B3841908-6D9C-B11B-5E61-7B8CAB420792</referredKeyID>
+<mandatory>true</mandatory>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

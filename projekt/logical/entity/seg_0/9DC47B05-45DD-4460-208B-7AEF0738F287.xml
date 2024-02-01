@@ -1,0 +1,99 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="9DC47B05-45DD-4460-208B-7AEF0738F287" name="VRSTA_USLUGE">
+<createdBy>38599</createdBy>
+<createdTime>2023-03-13 09:51:45 UTC</createdTime>
+<ownerDesignName>projekt</ownerDesignName>
+<engineerTo>
+<item key="59281CE8-5CE3-B8F8-9C6C-A5A4F14C13C7" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<preferredAbbreviation>VRSTE_USLUGE</preferredAbbreviation>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID_Usluga" id="E4CADEE5-9D6C-1B52-12FE-A68488661D78">
+<createdBy>38599</createdBy>
+<createdTime>2023-03-13 09:52:49 UTC</createdTime>
+<ownerDesignName>projekt</ownerDesignName>
+<engineerTo>
+<item key="59281CE8-5CE3-B8F8-9C6C-A5A4F14C13C7" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Naziv" id="84306E3A-DF4D-5CF4-318B-4BD7B0057EBC">
+<createdBy>38599</createdBy>
+<createdTime>2023-03-13 09:53:02 UTC</createdTime>
+<ownerDesignName>projekt</ownerDesignName>
+<engineerTo>
+<item key="59281CE8-5CE3-B8F8-9C6C-A5A4F14C13C7" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Cijena" id="58CFC618-8BC4-7B34-71D9-ADFBA7A4B4CD">
+<createdBy>38599</createdBy>
+<createdTime>2023-03-13 09:53:19 UTC</createdTime>
+<ownerDesignName>projekt</ownerDesignName>
+<engineerTo>
+<item key="59281CE8-5CE3-B8F8-9C6C-A5A4F14C13C7" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Pocetak_usluge" id="A577C455-07D1-5A7E-516A-9D14B4529361">
+<createdBy>38599</createdBy>
+<createdTime>2023-03-13 09:53:32 UTC</createdTime>
+<ownerDesignName>projekt</ownerDesignName>
+<engineerTo>
+<item key="59281CE8-5CE3-B8F8-9C6C-A5A4F14C13C7" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="115B74B7-ED0E-5C67-4CA4-D77199BF458F" name="VRSTA_USLUGE PK">
+<createdBy>38599</createdBy>
+<createdTime>2023-03-13 09:52:59 UTC</createdTime>
+<ownerDesignName>projekt</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="59281CE8-5CE3-B8F8-9C6C-A5A4F14C13C7" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>E4CADEE5-9D6C-1B52-12FE-A68488661D78</attributeRef>
+</usedAttributes>
+</identifier>
+<identifier id="E63BFA35-B9B8-1039-08B4-28AD0BE953EC" name="Key_5">
+<createdBy>38599</createdBy>
+<createdTime>2023-03-13 10:25:03 UTC</createdTime>
+<ownerDesignName>projekt</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="59281CE8-5CE3-B8F8-9C6C-A5A4F14C13C7" value="false"/>
+</engineerTo>
+<newElementsIDs>84306E3A-DF4D-5CF4-318B-4BD7B0057EBC</newElementsIDs>
+<usedAttributes>
+<attributeRef>84306E3A-DF4D-5CF4-318B-4BD7B0057EBC</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

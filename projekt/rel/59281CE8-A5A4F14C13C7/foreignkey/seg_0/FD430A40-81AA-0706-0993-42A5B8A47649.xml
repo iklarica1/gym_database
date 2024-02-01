@@ -1,0 +1,15 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="FD430A40-81AA-0706-0993-42A5B8A47649" containerWithKeyObject="CD23F6D1-B66D-28A0-96A5-D9318C40BF56" localFKIndex="D847AF2C-9147-B64D-02BC-800A51884CE5" name="ZAP_TERETANE_FK">
+<createdBy>38599</createdBy>
+<createdTime>2023-03-18 21:49:21 UTC</createdTime>
+<generatorID>4DF21882-0D10-720F-F6CC-9610E4A4ADAE</generatorID>
+<ownerDesignName>projekt</ownerDesignName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>501F0450-482C-F5CC-AA3E-1592ED9B5824</referredTableID>
+<keyObject>6C34ACBD-EB4D-BB31-E76E-789AD0ADD2B5</keyObject>
+<referredKeyID>6C34ACBD-EB4D-BB31-E76E-789AD0ADD2B5</referredKeyID>
+<mandatory>true</mandatory>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

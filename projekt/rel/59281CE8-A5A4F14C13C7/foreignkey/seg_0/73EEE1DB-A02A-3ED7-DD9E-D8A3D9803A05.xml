@@ -1,0 +1,15 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="73EEE1DB-A02A-3ED7-DD9E-D8A3D9803A05" containerWithKeyObject="5D0938E0-B939-7EB4-B5C5-85E399585B87" localFKIndex="33DF9947-1F3F-DAA7-0DD7-400B10CCDB7B" name="GRADOVI_ZUPANIJE_FK">
+<createdBy>38599</createdBy>
+<createdTime>2023-03-18 21:49:21 UTC</createdTime>
+<generatorID>8661D47E-A0FB-C5CD-F210-1FC5B15D09B4</generatorID>
+<ownerDesignName>projekt</ownerDesignName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>A7BA9195-67FF-1AFF-E3E8-F74A529FDBCF</referredTableID>
+<keyObject>17CB37F1-FC49-7BEB-5F67-1A8D9C2A7D0B</keyObject>
+<referredKeyID>17CB37F1-FC49-7BEB-5F67-1A8D9C2A7D0B</referredKeyID>
+<mandatory>true</mandatory>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

@@ -1,0 +1,65 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="7EE610FB-5B08-67C1-D6E0-03D63E70E00E" name="POZICIJE">
+<createdBy>38599</createdBy>
+<createdTime>2023-03-18 21:49:21 UTC</createdTime>
+<generatorID>5EEB7933-FDDB-8FAD-E03B-F86C8EA86E09</generatorID>
+<ownerDesignName>projekt</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_Poz" id="64F92696-AEE1-51DC-7767-4905E02E5A69">
+<createdBy>38599</createdBy>
+<createdTime>2023-03-18 21:49:21 UTC</createdTime>
+<generatorID>31769BA3-4B96-C507-7B17-EA4386C0F182</generatorID>
+<ownerDesignName>projekt</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,4,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<autoIncrementSequenceName>POZICIJA_SEQ</autoIncrementSequenceName>
+<autoIncrementTriggerName>POZICIJA_TRG</autoIncrementTriggerName>
+</Column>
+<Column name="Naziv" id="7DC48249-E036-7103-ADCB-1C469A962BD9">
+<createdBy>38599</createdBy>
+<createdTime>2023-03-18 21:49:21 UTC</createdTime>
+<generatorID>64AA95EB-6C2A-4106-5076-78208E353D61</generatorID>
+<ownerDesignName>projekt</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="0323F052-65DB-0976-28FE-E75F5FBEC4DE" name="POZICIJE_PK">
+<createdBy>38599</createdBy>
+<createdTime>2023-03-18 21:49:21 UTC</createdTime>
+<generatorID>8D3CF262-31D4-BFF2-09D7-25C6B3D557FD</generatorID>
+<ownerDesignName>projekt</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="64F92696-AEE1-51DC-7767-4905E02E5A69"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2E83950A-7426-3F8A-4F51-3FA6B40A4603" name="POZICIJE_Naziv_UN">
+<createdBy>38599</createdBy>
+<createdTime>2023-03-18 21:49:21 UTC</createdTime>
+<generatorID>446F9908-6332-9CC7-3AD1-32354ADCB990</generatorID>
+<ownerDesignName>projekt</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7DC48249-E036-7103-ADCB-1C469A962BD9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

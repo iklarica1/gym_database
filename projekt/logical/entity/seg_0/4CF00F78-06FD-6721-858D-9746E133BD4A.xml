@@ -1,0 +1,184 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="4CF00F78-06FD-6721-858D-9746E133BD4A" name="ZAP">
+<createdBy>38599</createdBy>
+<createdTime>2023-03-13 09:41:01 UTC</createdTime>
+<ownerDesignName>projekt</ownerDesignName>
+<engineerTo>
+<item key="59281CE8-5CE3-B8F8-9C6C-A5A4F14C13C7" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<preferredAbbreviation>ZAP</preferredAbbreviation>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID_Zap" id="112FB5E3-911E-EAA4-9E4B-144B6BD9F0C7">
+<createdBy>38599</createdBy>
+<createdTime>2023-03-13 09:41:19 UTC</createdTime>
+<ownerDesignName>projekt</ownerDesignName>
+<engineerTo>
+<item key="59281CE8-5CE3-B8F8-9C6C-A5A4F14C13C7" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Ime" id="F6B2DE98-04F9-7B4C-FE60-F3F3B1A99695">
+<createdBy>38599</createdBy>
+<createdTime>2023-03-13 09:42:01 UTC</createdTime>
+<ownerDesignName>projekt</ownerDesignName>
+<engineerTo>
+<item key="59281CE8-5CE3-B8F8-9C6C-A5A4F14C13C7" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Prezime" id="4020E027-5C24-95B7-42D0-2C5D15AF2A8E">
+<createdBy>38599</createdBy>
+<createdTime>2023-03-13 09:42:49 UTC</createdTime>
+<ownerDesignName>projekt</ownerDesignName>
+<engineerTo>
+<item key="59281CE8-5CE3-B8F8-9C6C-A5A4F14C13C7" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="broj" id="2A350EF5-7DB6-F230-AF78-AA0EFE2359AD">
+<createdBy>38599</createdBy>
+<createdTime>2023-03-13 09:43:32 UTC</createdTime>
+<ownerDesignName>projekt</ownerDesignName>
+<engineerTo>
+<item key="59281CE8-5CE3-B8F8-9C6C-A5A4F14C13C7" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Adresa" id="311433B8-0FEB-0F22-7998-8CC308577447">
+<createdBy>38599</createdBy>
+<createdTime>2023-03-13 09:44:35 UTC</createdTime>
+<ownerDesignName>projekt</ownerDesignName>
+<engineerTo>
+<item key="59281CE8-5CE3-B8F8-9C6C-A5A4F14C13C7" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="usn" id="5ACD1889-E1C5-4CA9-6958-C4C823178347">
+<createdBy>38599</createdBy>
+<createdTime>2023-03-13 09:45:07 UTC</createdTime>
+<ownerDesignName>projekt</ownerDesignName>
+<engineerTo>
+<item key="59281CE8-5CE3-B8F8-9C6C-A5A4F14C13C7" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="loz" id="6F3B287A-6E06-C871-E9D4-B97A698A09C6">
+<createdBy>38599</createdBy>
+<createdTime>2023-03-13 09:45:22 UTC</createdTime>
+<ownerDesignName>projekt</ownerDesignName>
+<engineerTo>
+<item key="59281CE8-5CE3-B8F8-9C6C-A5A4F14C13C7" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="email" id="D94FF5B2-B1C6-F91C-A390-85E0A4BDAD19">
+<createdBy>38599</createdBy>
+<createdTime>2023-03-13 09:51:21 UTC</createdTime>
+<ownerDesignName>projekt</ownerDesignName>
+<engineerTo>
+<item key="59281CE8-5CE3-B8F8-9C6C-A5A4F14C13C7" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_Spol" id="5AD2AE86-EE1B-0CDA-69C0-7B957F104A19">
+<createdBy>38599</createdBy>
+<createdTime>2023-03-13 10:27:42 UTC</createdTime>
+<generatorID>ED9760AF-F763-7EA7-CFEA-DE93A2C1D8EA</generatorID>
+<ownerDesignName>projekt</ownerDesignName>
+<engineerTo>
+<item key="59281CE8-5CE3-B8F8-9C6C-A5A4F14C13C7" value="true"/>
+</engineerTo>
+<referedAttribute>E2487A1B-78DC-7433-FD1C-254FD2AA1EBE</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>1</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_T" id="BB556F49-0DED-0709-8C42-65287B6E53CA">
+<createdBy>38599</createdBy>
+<createdTime>2023-03-13 10:32:37 UTC</createdTime>
+<generatorID>4DF21882-0D10-720F-F6CC-9610E4A4ADAE</generatorID>
+<ownerDesignName>projekt</ownerDesignName>
+<engineerTo>
+<item key="59281CE8-5CE3-B8F8-9C6C-A5A4F14C13C7" value="true"/>
+</engineerTo>
+<referedAttribute>2EAC93B1-329E-6C2B-6190-C346E35662A0</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="B5A131D6-53F3-C215-E923-93F1166F1A05" name="ZAP_PK">
+<createdBy>38599</createdBy>
+<createdTime>2023-03-13 09:41:57 UTC</createdTime>
+<ownerDesignName>projekt</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="59281CE8-5CE3-B8F8-9C6C-A5A4F14C13C7" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<newElementsIDs>112FB5E3-911E-EAA4-9E4B-144B6BD9F0C7</newElementsIDs>
+<usedAttributes>
+<attributeRef>112FB5E3-911E-EAA4-9E4B-144B6BD9F0C7</attributeRef>
+</usedAttributes>
+</identifier>
+<identifier id="BD5D8DDC-8500-908E-D78D-56A9F925AE70" name="Key_2">
+<createdBy>38599</createdBy>
+<createdTime>2023-03-13 10:21:16 UTC</createdTime>
+<ownerDesignName>projekt</ownerDesignName>
+<engineerTo>
+<item key="59281CE8-5CE3-B8F8-9C6C-A5A4F14C13C7" value="true"/>
+</engineerTo>
+<newElementsIDs>5ACD1889-E1C5-4CA9-6958-C4C823178347,D94FF5B2-B1C6-F91C-A390-85E0A4BDAD19,2A350EF5-7DB6-F230-AF78-AA0EFE2359AD</newElementsIDs>
+<usedAttributes>
+<attributeRef>5ACD1889-E1C5-4CA9-6958-C4C823178347</attributeRef>
+<attributeRef>D94FF5B2-B1C6-F91C-A390-85E0A4BDAD19</attributeRef>
+<attributeRef>2A350EF5-7DB6-F230-AF78-AA0EFE2359AD</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

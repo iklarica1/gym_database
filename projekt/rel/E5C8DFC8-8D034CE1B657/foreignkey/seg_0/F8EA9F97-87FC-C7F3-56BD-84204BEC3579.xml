@@ -1,0 +1,15 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="F8EA9F97-87FC-C7F3-56BD-84204BEC3579" containerWithKeyObject="FFF78AAE-2869-71DF-C087-EE4CEAC693FD" localFKIndex="35571A2E-3825-CEF6-0F08-F78F2E8278AE" name="ZAPOSLENICI_TERETANE_FK">
+<createdBy>38599</createdBy>
+<createdTime>2023-03-13 10:38:34 UTC</createdTime>
+<generatorID>4DF21882-0D10-720F-F6CC-9610E4A4ADAE</generatorID>
+<ownerDesignName>projekt</ownerDesignName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>E9DF837E-65D1-139D-1DC2-C6DCF295B84D</referredTableID>
+<keyObject>0827BAAB-A4B6-8722-C384-A4F68D56FDA2</keyObject>
+<referredKeyID>0827BAAB-A4B6-8722-C384-A4F68D56FDA2</referredKeyID>
+<mandatory>true</mandatory>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

@@ -1,0 +1,78 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="4FEFDAFA-CE3B-8689-574E-FF2412E97A24" name="SPOLOVI">
+<createdBy>38599</createdBy>
+<createdTime>2023-03-18 21:49:21 UTC</createdTime>
+<generatorID>4C5E52D9-ADBC-A477-0C88-BDA464D7765E</generatorID>
+<ownerDesignName>projekt</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_Spol" id="B1D77564-0615-73FC-3DC3-12760486093D">
+<createdBy>38599</createdBy>
+<createdTime>2023-03-18 21:49:21 UTC</createdTime>
+<generatorID>E2487A1B-78DC-7433-FD1C-254FD2AA1EBE</generatorID>
+<ownerDesignName>projekt</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>1</dataTypePrecision>
+<ownDataTypeParameters>,1,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<autoIncrementSequenceName>SPOL_SEQ</autoIncrementSequenceName>
+<autoIncrementTriggerName>SPOL_TRG</autoIncrementTriggerName>
+</Column>
+<Column name="Naziv" id="FA0424C5-F265-2486-FE6E-8C553761F164">
+<createdBy>38599</createdBy>
+<createdTime>2023-03-18 21:49:21 UTC</createdTime>
+<generatorID>E86CD7B8-F014-24BB-2319-A0A62B72CE11</generatorID>
+<ownerDesignName>projekt</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="kratica" id="C86941E8-29A8-BF9A-1F88-3F2CF1EF588D">
+<createdBy>38599</createdBy>
+<createdTime>2023-03-18 21:49:21 UTC</createdTime>
+<generatorID>78125C0B-48FA-090C-7D19-AC1A85A74E3D</generatorID>
+<ownerDesignName>projekt</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="E360B101-6272-E719-BBC3-2665D4896D0E" name="SPOLOVI_PK">
+<createdBy>38599</createdBy>
+<createdTime>2023-03-18 21:49:21 UTC</createdTime>
+<generatorID>FBEBBAFF-65AB-4964-07B4-6A0F8EAC3E79</generatorID>
+<ownerDesignName>projekt</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B1D77564-0615-73FC-3DC3-12760486093D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0027EE98-9B4F-EBFD-2C7C-9438FC29B5CC" name="SPOLOVI_Naziv_kratica_UN">
+<createdBy>38599</createdBy>
+<createdTime>2023-03-18 21:49:21 UTC</createdTime>
+<generatorID>90DDF4A2-5F90-9516-78C0-86DDF54FD544</generatorID>
+<ownerDesignName>projekt</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FA0424C5-F265-2486-FE6E-8C553761F164"/>
+<colUsage columnID="C86941E8-29A8-BF9A-1F88-3F2CF1EF588D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

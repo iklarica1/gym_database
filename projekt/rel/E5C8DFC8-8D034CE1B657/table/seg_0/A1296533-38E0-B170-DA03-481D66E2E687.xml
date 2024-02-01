@@ -1,0 +1,189 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A1296533-38E0-B170-DA03-481D66E2E687" name="ZAPOSLENICI_POZICIJE">
+<createdBy>38599</createdBy>
+<createdTime>2023-03-13 10:38:34 UTC</createdTime>
+<generatorID>24156EB8-C773-6333-8B3C-5A66D8C79582</generatorID>
+<ownerDesignName>projekt</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="POZICIJE_ID_Pozicija" id="1D86969C-A7BF-85C0-586C-3C90D262797B">
+<createdBy>38599</createdBy>
+<createdTime>2023-03-13 10:38:34 UTC</createdTime>
+<generatorID>9A8F0A14-7418-1F75-FFC7-D702CD32D67D</generatorID>
+<ownerDesignName>projekt</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5F7F2D50-91D8-C6BE-6B2F-45C0056ED527" referredColumn="37C52F67-2D1C-3423-8516-9AFA1C71B062"/>
+</associations>
+</Column>
+<Column name="ZAPOSLENICI_ID_Zaposlenik" id="30915B8C-A1DE-FFCC-86F7-FE6BA4E1F513">
+<createdBy>38599</createdBy>
+<createdTime>2023-03-13 10:38:34 UTC</createdTime>
+<generatorID>98E0C679-BEAD-F02E-1832-0B48D4A8845A</generatorID>
+<ownerDesignName>projekt</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4769703B-B229-7050-4292-C1A6A1BCB927" referredColumn="996994B4-25BF-9C96-9333-2DB66B9E263D"/>
+</associations>
+</Column>
+<Column name="POZICIJE_ID_Pozicija1" id="C5BB0DFE-0444-11E9-A1D1-BDE199A3A008">
+<createdBy>38599</createdBy>
+<createdTime>2023-03-13 10:39:53 UTC</createdTime>
+<generatorID>1E4F70A8-1C79-32AC-B3CC-166E9E48D98A</generatorID>
+<ownerDesignName>projekt</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B2A69847-2031-9C61-EEAE-AEB8E2E7B4D5" referredColumn="37C52F67-2D1C-3423-8516-9AFA1C71B062"/>
+</associations>
+</Column>
+<Column name="ZAPOSLENICI_ID_Zaposlenik1" id="7DEE8885-707E-3CD6-E2CA-4103453641DF">
+<createdBy>38599</createdBy>
+<createdTime>2023-03-13 10:39:53 UTC</createdTime>
+<generatorID>99773742-E3AD-6B3C-4547-208F1FB19679</generatorID>
+<ownerDesignName>projekt</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="DBBE9A6C-4FE8-B210-D372-7ADE787411C6" referredColumn="996994B4-25BF-9C96-9333-2DB66B9E263D"/>
+</associations>
+</Column>
+<Column name="POZICIJE_ID_Pozicija3" id="82873041-E7C6-3DF6-B62F-597DDDDE1F5E">
+<createdBy>38599</createdBy>
+<createdTime>2023-03-13 10:44:38 UTC</createdTime>
+<generatorID>49B6A258-9757-6F44-2121-E01FBE6B43B6</generatorID>
+<ownerDesignName>projekt</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7A29D29C-3553-6983-6392-7E8B7C9D0760" referredColumn="37C52F67-2D1C-3423-8516-9AFA1C71B062"/>
+</associations>
+</Column>
+<Column name="ZAPOSLENICI_ID_Zaposlenik3" id="A1306471-BBA0-D17B-48A8-37D7CAC575D9">
+<createdBy>38599</createdBy>
+<createdTime>2023-03-13 10:44:38 UTC</createdTime>
+<generatorID>27522B3C-0DC1-1D0C-A4AC-E40CD39F9D2F</generatorID>
+<ownerDesignName>projekt</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E88187B8-C07E-98BB-C119-2555716BFB1C" referredColumn="996994B4-25BF-9C96-9333-2DB66B9E263D"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="CB54D233-2FE7-1E63-5982-18F33F06835A" name="ZAPOSLENICI_POZICIJE_PK">
+<createdBy>38599</createdBy>
+<createdTime>2023-03-13 10:39:53 UTC</createdTime>
+<generatorID>F6D0C69F-025D-38D7-5AC3-418BA515EDF6</generatorID>
+<ownerDesignName>projekt</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="82873041-E7C6-3DF6-B62F-597DDDDE1F5E"/>
+<colUsage columnID="A1306471-BBA0-D17B-48A8-37D7CAC575D9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F70144FA-9DC2-6A00-9734-B2EC596A1AF1" name="ZAPOSLENICI_POZICIJE_POZICIJE_FK">
+<createdBy>38599</createdBy>
+<createdTime>2023-03-13 10:38:34 UTC</createdTime>
+<generatorID>541ED316-C6BB-E20F-A208-69D1E28C8A73</generatorID>
+<ownerDesignName>projekt</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1D86969C-A7BF-85C0-586C-3C90D262797B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5FECE84B-A5D6-962B-2648-BF06E8ABB3C8" name="ZAPOSLENICI_POZICIJE_ZAPOSLENICI_FK">
+<createdBy>38599</createdBy>
+<createdTime>2023-03-13 10:38:34 UTC</createdTime>
+<generatorID>FBE7B38E-8C4B-5FE4-00DB-15D1F5E59A25</generatorID>
+<ownerDesignName>projekt</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="30915B8C-A1DE-FFCC-86F7-FE6BA4E1F513"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="302FABB1-7BC7-79D2-34D9-DFBA5720425A" name="ZAPOSLENICI_POZICIJE_POZICIJE_FKv1">
+<createdBy>38599</createdBy>
+<createdTime>2023-03-13 10:39:53 UTC</createdTime>
+<generatorID>CEDDCC2D-CAF2-0615-0983-642A27175115</generatorID>
+<ownerDesignName>projekt</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C5BB0DFE-0444-11E9-A1D1-BDE199A3A008"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B8D37A1B-1EBD-A903-5DFC-833CF96BF58E" name="ZAPOSLENICI_POZICIJE_ZAPOSLENICI_FKv1">
+<createdBy>38599</createdBy>
+<createdTime>2023-03-13 10:39:53 UTC</createdTime>
+<generatorID>0539381C-72DE-8729-6F66-CE9DA824C179</generatorID>
+<ownerDesignName>projekt</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7DEE8885-707E-3CD6-E2CA-4103453641DF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2F8B9ABA-4F8B-3E92-0221-5111DAE2A036" name="ZAPOSLENICI_POZICIJE_POZICIJE_FKv3">
+<createdBy>38599</createdBy>
+<createdTime>2023-03-13 10:44:38 UTC</createdTime>
+<generatorID>C028F5C0-EC52-3A1D-EB93-0AED4EE37DFF</generatorID>
+<ownerDesignName>projekt</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="82873041-E7C6-3DF6-B62F-597DDDDE1F5E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B7F28C56-A4DF-C34A-71C0-0EC2A95F029A" name="ZAPOSLENICI_POZICIJE_ZAPOSLENICI_FKv3">
+<createdBy>38599</createdBy>
+<createdTime>2023-03-13 10:44:38 UTC</createdTime>
+<generatorID>F89180BA-2E8E-5AC0-7403-51D11BE94585</generatorID>
+<ownerDesignName>projekt</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A1306471-BBA0-D17B-48A8-37D7CAC575D9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

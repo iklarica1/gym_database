@@ -1,0 +1,65 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A7BA9195-67FF-1AFF-E3E8-F74A529FDBCF" name="ZUPANIJE">
+<createdBy>38599</createdBy>
+<createdTime>2023-03-18 21:49:21 UTC</createdTime>
+<generatorID>2731651B-A80E-C181-AD5C-886BBD59A4A3</generatorID>
+<ownerDesignName>projekt</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_Zupanija" id="507483C1-150C-6C0D-CF86-299B85D05D65">
+<createdBy>38599</createdBy>
+<createdTime>2023-03-18 21:49:21 UTC</createdTime>
+<generatorID>8CBA1847-302A-27C3-181D-0C4BAD1CDC9C</generatorID>
+<ownerDesignName>projekt</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,4,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<autoIncrementSequenceName>ZUPANIJA_SEQ</autoIncrementSequenceName>
+<autoIncrementTriggerName>ZUPANIJA_TRG</autoIncrementTriggerName>
+</Column>
+<Column name="Naziv" id="539B6259-E863-FC0A-BE51-6E292921F77E">
+<createdBy>38599</createdBy>
+<createdTime>2023-03-18 21:49:21 UTC</createdTime>
+<generatorID>F063E66F-DF46-09B4-4701-78F8879ADA25</generatorID>
+<ownerDesignName>projekt</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="17CB37F1-FC49-7BEB-5F67-1A8D9C2A7D0B" name="ZUPANIJE_PK">
+<createdBy>38599</createdBy>
+<createdTime>2023-03-18 21:49:21 UTC</createdTime>
+<generatorID>7B5D92CF-5A63-5638-21FA-13D57A47C4A2</generatorID>
+<ownerDesignName>projekt</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="507483C1-150C-6C0D-CF86-299B85D05D65"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="82BDE8E4-2964-7523-CE7D-49EF6EFA8476" name="ZUPANIJE_Naziv_UN">
+<createdBy>38599</createdBy>
+<createdTime>2023-03-18 21:49:21 UTC</createdTime>
+<generatorID>1F04F357-11DD-4A9A-E665-37106470644F</generatorID>
+<ownerDesignName>projekt</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="539B6259-E863-FC0A-BE51-6E292921F77E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

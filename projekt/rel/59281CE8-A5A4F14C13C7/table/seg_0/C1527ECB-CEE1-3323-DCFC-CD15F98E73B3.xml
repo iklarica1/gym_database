@@ -1,0 +1,81 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C1527ECB-CEE1-3323-DCFC-CD15F98E73B3" name="ZAP_CERT">
+<createdBy>38599</createdBy>
+<createdTime>2023-03-18 21:49:21 UTC</createdTime>
+<generatorID>F04A7B6E-2AD1-DEBC-CD4F-787B722502F3</generatorID>
+<ownerDesignName>projekt</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ZAP_ID_Zap" id="E41D588B-03B9-7004-59BD-9A8D397CEEB4">
+<createdBy>38599</createdBy>
+<createdTime>2023-03-18 21:49:21 UTC</createdTime>
+<generatorID>414F3630-A540-B5AB-9D42-B5342F27101A</generatorID>
+<ownerDesignName>projekt</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1A0B5220-A9FD-39F7-2953-AAE98F30DED6" referredColumn="2678CD70-9A18-F40E-A727-C7E9A0A60E36"/>
+</associations>
+</Column>
+<Column name="CERTIFIKATI_ID_C" id="6BD7D25A-BA01-78E7-0CAE-793005A101AD">
+<createdBy>38599</createdBy>
+<createdTime>2023-03-18 21:49:21 UTC</createdTime>
+<generatorID>740671D3-3F9C-6584-06B7-315FC6DB02A7</generatorID>
+<ownerDesignName>projekt</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="38824005-46EF-7D25-CAEA-743D77AC249A" referredColumn="37837352-4C74-9000-9294-CDD7305D00E5"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="EEF73726-B64B-71C6-4FD9-9EAA91E32ED9" name="ZAP_CERT_PK">
+<createdBy>38599</createdBy>
+<createdTime>2023-03-18 21:49:21 UTC</createdTime>
+<generatorID>13758B02-369D-D98C-04CC-B8A71E0CF721</generatorID>
+<ownerDesignName>projekt</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E41D588B-03B9-7004-59BD-9A8D397CEEB4"/>
+<colUsage columnID="6BD7D25A-BA01-78E7-0CAE-793005A101AD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="558ABE6E-3C43-B4F1-44C3-6D77A88BD828" name="ZAP_CERT_ZAP_FK">
+<createdBy>38599</createdBy>
+<createdTime>2023-03-18 21:49:21 UTC</createdTime>
+<generatorID>DEB962A0-44D7-E8DC-FA6A-5D84520869B8</generatorID>
+<ownerDesignName>projekt</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E41D588B-03B9-7004-59BD-9A8D397CEEB4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="43F93756-100A-CB5B-5B5E-A121CDB49180" name="ZAP_CERT_CERTIFIKATI_FK">
+<createdBy>38599</createdBy>
+<createdTime>2023-03-18 21:49:21 UTC</createdTime>
+<generatorID>D62A0CF8-8FB7-55A0-DCAA-79AB2A28C8AC</generatorID>
+<ownerDesignName>projekt</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6BD7D25A-BA01-78E7-0CAE-793005A101AD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

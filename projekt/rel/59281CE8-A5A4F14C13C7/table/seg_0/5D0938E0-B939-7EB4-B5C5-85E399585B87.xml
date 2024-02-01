@@ -1,0 +1,91 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="5D0938E0-B939-7EB4-B5C5-85E399585B87" name="GRADOVI">
+<createdBy>38599</createdBy>
+<createdTime>2023-03-18 21:49:21 UTC</createdTime>
+<generatorID>59897937-DF7C-DFCA-F998-657C55D97EC9</generatorID>
+<ownerDesignName>projekt</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_Grad" id="1A7DED53-D724-313D-2753-B4838769F8CC">
+<createdBy>38599</createdBy>
+<createdTime>2023-03-18 21:49:21 UTC</createdTime>
+<generatorID>9E7A214F-6735-D08D-A2B0-189055695DB2</generatorID>
+<ownerDesignName>projekt</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<autoIncrementSequenceName>GRAD_SEQ</autoIncrementSequenceName>
+<autoIncrementTriggerName>GRAD_TRG</autoIncrementTriggerName>
+</Column>
+<Column name="Ime" id="48D540F6-6715-17EA-EB05-D3F18682478E">
+<createdBy>38599</createdBy>
+<createdTime>2023-03-18 21:49:21 UTC</createdTime>
+<generatorID>A09D9EC7-CA7F-2226-FBCD-6A43FDD11D24</generatorID>
+<ownerDesignName>projekt</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ZUPANIJE_ID_Zupanija" id="59536CEE-AF13-2741-6993-3E39F77A26FD">
+<createdBy>38599</createdBy>
+<createdTime>2023-03-18 21:49:21 UTC</createdTime>
+<generatorID>3B18B479-F04B-C8BF-4539-D78625C17DFD</generatorID>
+<ownerDesignName>projekt</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="73EEE1DB-A02A-3ED7-DD9E-D8A3D9803A05" referredColumn="507483C1-150C-6C0D-CF86-299B85D05D65"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="33B55850-4601-2965-0C2A-2C9799A3BB70" name="GRADOVI_PK">
+<createdBy>38599</createdBy>
+<createdTime>2023-04-11 20:00:55 UTC</createdTime>
+<ownerDesignName>projekt</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1A7DED53-D724-313D-2753-B4838769F8CC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="14B77159-41AC-0A73-D3DD-2FE38B59DAA6" name="GRADOVI_Ime_UN">
+<createdBy>38599</createdBy>
+<createdTime>2023-03-18 21:49:21 UTC</createdTime>
+<generatorID>EFDBC6FD-5E8F-7E23-9DCD-3CE72D5B808A</generatorID>
+<ownerDesignName>projekt</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="48D540F6-6715-17EA-EB05-D3F18682478E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="33DF9947-1F3F-DAA7-0DD7-400B10CCDB7B" name="GRADOVI_ZUPANIJE_FK">
+<createdBy>38599</createdBy>
+<createdTime>2023-03-18 21:49:21 UTC</createdTime>
+<generatorID>8661D47E-A0FB-C5CD-F210-1FC5B15D09B4</generatorID>
+<ownerDesignName>projekt</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="59536CEE-AF13-2741-6993-3E39F77A26FD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
